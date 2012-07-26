@@ -11,10 +11,17 @@ public class Friendslist extends JavaPlugin{
 	public void onEnable() {
 		friendslistExecutor = new FriendslistExecutor(this);
 		getCommand("friendslist").setExecutor((CommandExecutor) friendslistExecutor);
+		
+		pluginInfo("Enabled");
 	}
 	
 	@Override
 	public void onDisable() {
 		
+		pluginInfo("Disabled");
+	}
+	
+	public static void pluginInfo(String Message){
+		System.out.println("Friends" + Message);
 	}
 }
