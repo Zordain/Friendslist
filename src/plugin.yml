@@ -1,0 +1,7 @@
+name: Friendslist
+main: me.groot314.Friendslist.Friendslist
+version: 1.0
+commands:
+  friendslist:
+    description: Nothing Yet
+    usage: /friendslist
