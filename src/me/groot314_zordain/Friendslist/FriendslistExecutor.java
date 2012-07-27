@@ -8,6 +8,7 @@ import org.bukkit.command.CommandSender;
 
 public class FriendslistExecutor implements CommandExecutor {
 
+	@SuppressWarnings("unused")
 	private Friendslist plugin;
 
 	public FriendslistExecutor(Friendslist plugin) {
