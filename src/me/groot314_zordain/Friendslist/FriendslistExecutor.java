@@ -19,6 +19,10 @@ public class FriendslistExecutor implements CommandExecutor {
 	public boolean onCommand(CommandSender sender, Command cmd,String label, String[] args) {
 		if (cmd.getName().equalsIgnoreCase("friendslist")){
 			Bukkit.getServer().broadcastMessage("FriendsList----------");
+			Bukkit.getServer().broadcastMessage("/FL Help - To See this");
+			Bukkit.getServer().broadcastMessage("/FL friends - to see Friends list");
+			Bukkit.getServer().broadcastMessage("/FL add - to add friends");
+			return true;
 		}
 		return false;
 	}
